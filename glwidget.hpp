@@ -5,7 +5,7 @@
 
 #include <phongshader.hpp>
 #include <utils/qttrackballwidget.hpp>
-#include "edge.hpp"
+#include "shadowmap.hpp"
 
 using namespace std;
 
@@ -30,13 +30,21 @@ public:
     virtual void paintGL();
 
 
+
+
 signals:
     
 public slots:
     
 private:
+    //Edge effect
+    //Effects::Edge edge;
 
-    Effects::Edge edge;
+    //Shadowmapping
+    Effects::ShadowMap shadowmap;
+
+    //Voxel shadowing effect
+    //Effects::Voxelight voxelight;
 
 protected:
 

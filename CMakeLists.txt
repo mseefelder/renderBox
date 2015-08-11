@@ -7,7 +7,7 @@ project(${PROJECT_NAME} C CXX)
 #
 
 # Tucano directories.
-set(TUCANO_DIR "/lcg/home/mseefelder/workspace/resources/tucano")
+set(TUCANO_DIR "/home/mseefelder/workspace/resources/tucano")
 set(TUCANO_BINARY_DIR "${TUCANO_DIR}/bin")
 set(TUCANO_DOCUMENTATION_DIR "${TUCANO_DIR}/doc")
 set(TUCANO_EFFECTS_DIR "${TUCANO_DIR}/effects")
@@ -112,7 +112,7 @@ set(
   VOLUME_HEADERS
   ${RENDERBOX_DIR}/mainwindow.h
   ${RENDERBOX_DIR}/glwidget.hpp
-  ${RENDERBOX_DIR}/edge.hpp
+  ${RENDERBOX_DIR}/shadowmap.hpp
   )
 
 qt5_wrap_ui(
